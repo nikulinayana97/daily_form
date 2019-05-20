@@ -1,0 +1,100 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+}
+
+body{
+	display: flex;
+	align-items: center;
+	background:  -webkit-linear-gradient(45deg, #ff512f 0%,#dd2476 100%);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+
+.form__page{
+	margin: 0 auto;
+	width: 57.625vw;
+	background-color: #fff;
+	border-radius: 0.5vw;
+	padding: 3.875vw;
+
+	font-family: 'Arial', sans-serif;
+}
+
+.b__header{
+	position: relative;
+	margin-bottom: 4.125vw;
+}
+
+.b__icon{
+	position: absolute;
+	top: -0.375vw;
+	left: 0;
+	width: 3vw;
+	height: 3vw;
+}
+
+.b__title{
+	margin-left: 4.25vw;
+	margin-bottom: 1.875vw;
+	font-size: 3vw;
+	line-height: 2.5vw;
+	font-weight: bold;
+	color: #1B1C1D;
+}
+
+.b__header-text{
+	font-size: 1.625vw;
+	color: #7A7B7F;
+	line-height: 2.5vw;
+}
+
+.b__text--link{
+	text-decoration: none;
+	color: #EA355A;
+}
+
+input{
+	margin-bottom: 1.875vw;
+	padding-left: 1.75vw;
+	height: 5vw;
+	background-color: #F0F0F0;
+	border: none;
+	border-radius: 0.5vw;
+	font-size: 1.75vw;
+	line-height: 2.5vw;
+}
+
+.b__first-name, .b__last-name{
+	width: 24.25vw;
+}
+
+.b__email, .b__password{
+	width: 50.125vw;
+} 
+
+.b__first-name{
+	margin-right: 0.92vw;
+}
+
+.b__btn{
+	margin-bottom: 2.875vw;
+	width: 50.125vw;
+	height: 6.25vw;
+	background-color: #EA355A;
+	color: #fff;
+	font-size: 2.25vw;
+	font-weight: bold;
+	line-height: 2.5vw;
+	border-radius: 0.5vw;
+	box-shadow: 0px -0.375vw 0 0 #BD1962 inset;
+	border: none;
+}
+
+.b__footer-text{
+	margin-bottom: 3.75vw;
+	color: #7A7B7F;
+	font-size: 1.5vw;
+	line-height: 2.5vw;
+}
